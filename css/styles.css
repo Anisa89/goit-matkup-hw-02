@@ -9,6 +9,236 @@ body {
   text-decoration: none;
 }
 
+/*header html*/
+.header {
+  background: #ffffff;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.logo-two {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.studio-color {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.nav-portfolio-link,
+.nav-contakts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+/*Address header html*/
+.address {
+  font-style: normal;
+}
+
+.header-mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.header-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+/*header navigation hover*/
+.nav-link:hover,
+.nav-link:focus,
+.studio-color:hover,
+.studio-color:focus,
+.nav-portfolio-link:hover,
+.nav-portfolio-link:focus,
+.nav-contakts-link:hover,
+.nav-contakts-link:focus,
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus {
+  color: #2196f3;
+}
+/*main index.html*/
+/*Hero*/
+.Hero {
+  background: #2f303a;
+  align-items: center;
+}
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.wraper-button-hero {
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button-hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+  background: #188ce8;
+  color: #ffffff;
+}
+.button-hero1-link:hover,
+.button-hero-link:focus {
+  color: #212121;
+}
+/*features*/
+.title-advantages {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.desc-title-advantages {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*description of services*/
+
+.title-description {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/*Team*/
+.title-team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /*text-align: center;*/
+  /* identical to box height */
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.desc-profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*Footer html*/
+.footer {
+  background: #2f303a;
+}
+.logo-footer {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.logo-footer-two {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-map-link,
+.footer-tel-link,
+.footer-mail-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+/******finish index.html******/
+
+/*body for portfolio*/
+body {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
 .address {
   font-style: normal;
 }

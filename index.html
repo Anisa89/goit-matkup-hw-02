@@ -4,33 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header-->
     <header class="header">
       <nav class="navigation">
-        <a class="link-logo" href="./index.html" aria-label="логотип вэбстудии">
-          <span class="logo">Web</span> Studio
+      <a class="logo-link link" href="./index.html" aria-label="логотип вэбстудии">
+        <span class="logo">Web</span><span class="logo-two">Studio</span> 
+      </a>
         </a>
-        <ul class="navigation-list">
+        <ul class="navigation-list list">
           <li>
-            <a class="studio" href="">Студия</a>
+            <a class="nav-studio-link link" href="">
+              <span class="studio-color">Студия</span>
+            </a>
           </li>
           <li>
-            <a class="portfolio" href="">Портфолио</a>
+            <a class="nav-portfolio-link link" href="">Портфолио</a>
           </li>
           <li>
-            <a class="contakts" href="">Контакты</a>
+            <a class="nav-contakts-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
       <address class="address">
-        <ul class="list-address">
-          <li class="tel-item">
-            <a class="link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul class="header-address-list">
+          <li class="header-tel-list list">
+            <a class="header-tel-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
-          <li class="mail-item">
-            <a class="link-mail" href="mailto:info@devstudio.com"
+          <li class="header-mail-list list">
+            <a class="header-mail-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
@@ -42,9 +56,15 @@
       <!--Hero-->
       <section class="Hero">
         <div class="wraper-hero">
-          <h1 class="title-hero">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="title-hero">
+            Эффективные решения <br />для вашего бизнеса
+          </h1>
         </div>
-        <button class="button" type="button">заказать услугу</button>
+        <div class="wraper-button-hero">
+          <button class="button-hero" type="button">
+            <span class="button-hero1-link">заказать услугу</span>
+          </button>
+        </div>
       </section>
       <!--Features-->
       <section class="features">
@@ -85,8 +105,10 @@
       <!--description of services-->
       <section class="description- services">
         <div class="wraper-description">
-          <h2 class="title-description">Чем мы занимаемся</h2>
-          <ul class="list-description">
+          <div>
+            <h2 class="title-description">Чем мы занимаемся</h2>
+          </div>
+          <ul class="description-services-item-list list">
             <li class="item-services">
               <img
                 class="item-services-img"
@@ -97,22 +119,29 @@
               />
             </li>
             <li class="item-services">
-              <img class="item-services-img
-              src="./images/what.we.doing/img.box1.jpg" alt="програмист выбирает
-              макет сайта на телефоне" width="370" height="294" />
+              <img class="item-services-img"
+              src="./images/what.we.doing/img.box2.jpg" alt="програмист выбирает
+              макет сайта на телефоне" width="370" height="294"
             </li>
             <li class="item-services">
-              <img class="item-services-img src="./images/img.box3.jpg"
-              alt="програмист выбирает цвет" width="370" height="294" />
+              <img
+                class="item-services-img"
+                src="./images/what.we.doing/img.box3.jpg"
+                alt="програмист выбирает цвет"
+                width="370"
+                height="294"
+              />
             </li>
           </ul>
         </div>
       </section>
       <!--Team-->
       <section class="Team">
-        <h2 class="title-team">Наша команда</h2>
+        <div>
+          <h2 class="title-team">Наша команда</h2>
+        </div>
         <div class="wraper-team">
-          <ul class="list-team">
+          <ul class="team-list list">
             <li class="item-team">
               <img
                 class="team-name-img"
@@ -164,26 +193,26 @@
     <!--Footer-->
     <footer class="footer">
       <nav class="nav-footer">
-        <a class="link-logo" href="./index.html" aria-label="логотип вэбстудии">
-          <span class="logo">Web</span> Studio
+        <a class="logo-link link" href="./index.html" aria-label="логотип вэбстудии">
+        <span class="logo-footer">Web</span><span class="logo-footer-two">Studio</span>
         </a>
         <address class="address">
-          <ul class="list-address">
+          <ul class="footer-address-list list">
             <li class="map-item">
               <a
-                class="map-link"
+                class="footer-map-link link"
                 href="https://goo.gl/maps/KVh2sjvW69xW6A4LA"
                 target="_blank"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
             <li class="tel-item">
-              <a class="tel-link" href="tel:+380991111111 "
+              <a class="footer-tel-link link" href="tel:+380991111111 "
                 >+38 099 111 11 11</a
               >
             </li>
             <li class="mail-item">
-              <a class="mail-link" href="mailto:info@example.com"
+              <a class="footer-mail-link link" href="mailto:info@example.com"
                 >info@example.com</a
               >
             </li>
