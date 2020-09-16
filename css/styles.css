@@ -261,6 +261,8 @@ body {
 /*header navigation portfolio*/
 .navigation-list-link:hover,
 .navigation-list-link:focus,
+.navigation-list-link2:hover,
+.navigation-list-link2:focus,
 .header-mail-link:hover,
 .header-mail-link:focus,
 .header-tel-link:hover,
@@ -306,7 +308,7 @@ body {
   line-height: 0.87;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: #212121;
 }
 /*address portfolio*/
 .header-mail-link,
@@ -374,17 +376,38 @@ body {
 .footer {
   background: #2f303a;
 }
-.footer-map-link,
-.footer-tel-link,
-.footer-mail-link {
+.logo-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.footer-map-link {
+  font-family: Roboto;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1/14;
+  line-height: 1.714;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+
+.footer-tel-link,
+.footer-mail-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-map-link:hover,
 .footer-map-link:focus,
